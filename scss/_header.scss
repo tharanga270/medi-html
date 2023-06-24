@@ -1,6 +1,9 @@
 @import '_variables';
 @import '_mymixin';
 
+* {
+  font-family: 'Work Sans', sans-serif;
+}
 /*header start*/
 header {
   position: absolute;

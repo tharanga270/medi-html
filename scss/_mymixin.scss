@@ -4,3 +4,11 @@
   -ms-border-radius: $red;
   -moz-border-radius: $red;
 }
+
+@mixin set-image-to-div($url, $repeat, $height, $size, $position) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  height: $height;
+  background-size: $size;
+  background-position: $position;
+}

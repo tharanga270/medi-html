@@ -1,3 +1,7 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
 /*header start*/
 header {
   position: absolute;
@@ -41,10 +45,61 @@ header .btn-book-apt:hover {
 /*main slider start*/
 .main-slider-section .medi-single-slider {
   background-image: url("../images/banner.png.webp");
+  background-repeat: no-repeat;
   height: 960px;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+}
+
+.main-slider-section .bg-overlay {
+  position: relative;
+  z-index: 0;
+}
+
+.main-slider-section .bg-overlay::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: -moz-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
+}
+
+.main-slider-section .medi-slider-text {
+  position: absolute;
+  z-index: 3;
+  top: 330px;
+}
+
+.main-slider-section .medi-slider-text span {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.main-slider-section .medi-slider-text h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.main-slider-section .medi-slider-text h3 {
+  font-size: 70px;
+  font-weight: 300;
+}
+
+.main-slider-section .medi-slider-text a {
+  border: 1px solid #fff;
+  color: white;
+  padding: 17px 44px;
+}
+
+.main-slider-section .medi-slider-text a:hover {
+  background: white;
+  color: #000 !important;
+  border: 1px solid #fff;
 }
 
 /*main slider end*/
