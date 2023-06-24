@@ -1,0 +1,52 @@
+/*header start*/
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+header .bg-head-color {
+  background-color: rgba(23, 93, 254, 0.85) !important;
+  min-height: 120px;
+}
+
+header .nav-cmn-item {
+  padding-right: 12px;
+}
+
+header .nav-cmn-item a {
+  color: white;
+}
+
+header .btn-book-apt {
+  background-color: white;
+  color: #002278;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 45px !important;
+  padding-right: 45px !important;
+  margin-left: 50px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+header .btn-book-apt:hover {
+  background-color: #002278;
+  color: white;
+}
+
+/*header end*/
+/*main slider start*/
+.main-slider-section .medi-single-slider {
+  background-image: url("../images/banner.png.webp");
+  height: 960px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/*main slider end*/
+
+/*# sourceMappingURL=main.css.map */

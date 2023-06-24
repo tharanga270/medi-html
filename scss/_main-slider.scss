@@ -1,0 +1,12 @@
+@import '_variables';
+@import '_mymixin';
+
+/*main slider start*/
+.main-slider-section .medi-single-slider {
+    background-image: url('../images/banner.png.webp');
+    height: 960px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*main slider end*/
