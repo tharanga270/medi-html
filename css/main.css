@@ -103,5 +103,21 @@ header .btn-book-apt:hover {
 }
 
 /*main slider end*/
+/*media queries start*/
+@media (max-width: 768px) {
+  .main-slider-section .medi-slider-text {
+    margin-top: -70px;
+  }
+  .main-slider-section .medi-slider-text h2 {
+    font-size: 55px;
+  }
+  .main-slider-section .medi-slider-text h3 {
+    font-size: 55px;
+  }
+  .main-slider-section .medi-single-slider {
+    height: 700px;
+  }
+}
+/*media queries end*/
 
 /*# sourceMappingURL=main.css.map */
