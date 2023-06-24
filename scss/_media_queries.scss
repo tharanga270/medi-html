@@ -8,6 +8,13 @@
 }
 
 @media (max-width: 768px) {
+  /*header style start*/
+  header .bg-head-color {
+    min-height: 100px;
+  }
+  /*header style end*/
+
+  /*main slider style start*/
   .main-slider-section .medi-slider-text {
     margin-top: -70px;
   }
@@ -20,9 +27,34 @@
   .main-slider-section .medi-single-slider {
     height: 700px;
   }
+  /*main slider style end*/
 }
 
 @media (max-width: 425px) {
+  /*header style start*/
+  header nav .nav-logo-brand img {
+    width: 70px;
+  }
+  header .bg-head-color {
+    min-height: 55px;
+  }
+  /*header style end*/
+
+  /*main slider style start*/
+  .main-slider-section .medi-single-slider {
+    height: 500px;
+  }
+  .main-slider-section .medi-slider-text {
+    margin-top: -200px;
+  }
+  .main-slider-section .medi-slider-text h2 {
+    font-size: 33px;
+  }
+  .main-slider-section .medi-slider-text h3 {
+    font-size: 33px;
+    width: 95%;
+  }
+  /*main slider style end*/
 }
 @media (max-width: 375px) {
 }
