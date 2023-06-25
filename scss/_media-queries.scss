@@ -17,6 +17,18 @@
     margin-top: 100px;
   }
   /*welcome-to-clinic-section style end*/
+
+  /*departments section style start*/
+  .departments-section .dept-main-info .dept-info {
+    padding: 40px;
+  }
+  .departments-section .depart-ment-tab .nav li {
+    -webkit-box-flex: 30%;
+    -ms-flex: 30% 0 0px;
+    flex: 30% 0 0;
+    margin-bottom: 0 !important;
+  }
+  /*departments section style end*/
 }
 
 @media (max-width: 768px) {
@@ -42,12 +54,7 @@
   /*main slider style end*/
 
   /*departments section style start*/
-  .departments-section .depart_ment_tab .nav li {
-    -webkit-box-flex: 30%;
-    -ms-flex: 30% 0 0px;
-    flex: 30% 0 0;
-    margin-bottom: 0 !important;
-  }
+
   /*departments section style end*/
 }
 

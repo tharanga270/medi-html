@@ -215,16 +215,16 @@ header .btn-book-apt:hover {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 300px;
   padding-top: 80px;
   margin-top: 100px;
+  padding-bottom: 150px;
 }
 
 .departments-section .custom-align {
   margin-bottom: 60px;
 }
 
-.departments-section .section_title h3 {
+.departments-section .section-title h3 {
   font-size: 50px;
   font-weight: 600;
   line-height: 48px;
@@ -234,14 +234,14 @@ header .btn-book-apt:hover {
   padding-bottom: 15px;
 }
 
-.departments-section .section_title p {
+.departments-section .section-title p {
   font-size: 16px;
   color: #6b6a6a;
   line-height: 30px;
   margin-bottom: 0;
 }
 
-.departments-section .learn_more_btn .learn-btn {
+.departments-section .learn-more-btn .learn-btn {
   background: #fff;
   color: #296ea4 !important;
   display: inline-block;
@@ -258,35 +258,35 @@ header .btn-book-apt:hover {
   text-decoration: none;
 }
 
-.departments-section .learn_more_btn .learn-btn:hover {
+.departments-section .learn-more-btn .learn-btn:hover {
   background: #009dff !important;
   color: #fff;
   border: 1px solid #009dff !important;
 }
 
-.departments-section .depart_ment_tab {
+.departments-section .depart-ment-tab {
   margin-bottom: 30px;
 }
 
-.departments-section .depart_ment_tab .nav {
+.departments-section .depart-ment-tab .nav {
   justify-content: space-between;
 }
 
-.departments-section .depart_ment_tab .nav li {
+.departments-section .depart-ment-tab .nav li {
   -webkit-box-flex: 14.4%;
   -ms-flex: 14.4% 0 0px;
   flex: 14.4% 0 0;
   margin-bottom: 30px;
 }
 
-.departments-section .depart_ment_tab .nav li a.active {
+.departments-section .depart-ment-tab .nav li a.active {
   background-image: -moz-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
   background-image: -webkit-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
   background-image: -ms-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
   color: #fff;
 }
 
-.departments-section .depart_ment_tab .nav li a {
+.departments-section .depart-ment-tab .nav li a {
   background: #fff;
   margin-bottom: 30px;
   border: 1px solid #cdf2ff;
@@ -309,28 +309,79 @@ header .btn-book-apt:hover {
   transition: 0.3s;
 }
 
-.departments-section .depart_ment_tab .nav li a.active i {
+.departments-section .depart-ment-tab .nav li a.active i {
   color: #fff;
 }
 
-.departments-section .depart_ment_tab .nav li a i {
+.departments-section .depart-ment-tab .nav li a i {
   font-size: 50px;
   color: #3eadf8;
   line-height: 1;
   margin-bottom: 13px;
 }
 
-.departments-section .depart_ment_tab .nav li a.active h4 {
+.departments-section .depart-ment-tab .nav li a.active h4 {
   color: #fff;
 }
 
-.departments-section .depart_ment_tab .nav li a h4 {
+.departments-section .depart-ment-tab .nav li a h4 {
   font-size: 18px;
   font-weight: 500;
   color: #296ea4;
   margin-bottom: 0;
 }
 
+/*main info section style start*/
+.dept-main-info {
+  background-color: #fff;
+}
+
+.departments-section .dept-main-info .dept-main-thumb img {
+  width: 100%;
+}
+
+.departments-section .dept-main-info .dept-info {
+  padding-left: 68px;
+  padding-right: 75px;
+}
+
+.departments-section .dept-main-info .dept-info h3 {
+  font-size: 25px;
+  line-height: 35px;
+  color: #242424;
+  font-weight: 500;
+}
+
+.departments-section .dept-main-info .dept-info p {
+  margin-bottom: 52px;
+  margin-top: 20px;
+  color: #5c5c5c;
+}
+
+.departments-section .dept-main-info .dept-info .make-appointment-btn {
+  background: #fff;
+  text-decoration: none;
+  color: #296ea4 !important;
+  display: inline-block;
+  padding: 18px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #27bcf2;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.departments-section .dept-main-info .dept-info .make-appointment-btn:hover {
+  background: #009dff !important;
+  color: #fff !important;
+  border: 1px solid #009dff !important;
+}
+
+/*main info section style end*/
 /*departments section style end*/
 /*media queries start*/
 @media (max-width: 991px) {
@@ -344,6 +395,17 @@ header .btn-book-apt:hover {
     margin-top: 100px;
   }
   /*welcome-to-clinic-section style end*/
+  /*departments section style start*/
+  .departments-section .dept-main-info .dept-info {
+    padding: 40px;
+  }
+  .departments-section .depart-ment-tab .nav li {
+    -webkit-box-flex: 30%;
+    -ms-flex: 30% 0 0px;
+    flex: 30% 0 0;
+    margin-bottom: 0 !important;
+  }
+  /*departments section style end*/
 }
 @media (max-width: 768px) {
   /*header style start*/
@@ -366,12 +428,6 @@ header .btn-book-apt:hover {
   }
   /*main slider style end*/
   /*departments section style start*/
-  .departments-section .depart_ment_tab .nav li {
-    -webkit-box-flex: 30%;
-    -ms-flex: 30% 0 0px;
-    flex: 30% 0 0;
-    margin-bottom: 0 !important;
-  }
   /*departments section style end*/
 }
 @media (max-width: 425px) {

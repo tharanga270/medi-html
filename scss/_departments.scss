@@ -10,14 +10,15 @@
     center
   );
   width: 100%;
-  height: 300px;
+  //height: 300px;
   padding-top: 80px;
   margin-top: 100px;
+  padding-bottom: 150px;
 }
 .departments-section .custom-align {
   margin-bottom: 60px;
 }
-.departments-section .section_title h3 {
+.departments-section .section-title h3 {
   font-size: 50px;
   font-weight: 600;
   line-height: 48px;
@@ -26,13 +27,13 @@
   z-index: 1;
   padding-bottom: 15px;
 }
-.departments-section .section_title p {
+.departments-section .section-title p {
   font-size: 16px;
   color: $departments-section-color-2;
   line-height: 30px;
   margin-bottom: 0;
 }
-.departments-section .learn_more_btn .learn-btn {
+.departments-section .learn-more-btn .learn-btn {
   background: $departments-section-color-3;
   color: $departments-section-color-4;
   display: inline-block;
@@ -45,24 +46,24 @@
   @include border-radius(3px);
   text-decoration: none;
 }
-.departments-section .learn_more_btn .learn-btn:hover {
+.departments-section .learn-more-btn .learn-btn:hover {
   background: $departments-section-color-6;
   color: $departments-section-color-3;
   border: 1px solid $departments-section-color-6;
 }
-.departments-section .depart_ment_tab {
+.departments-section .depart-ment-tab {
   margin-bottom: 30px;
 }
-.departments-section .depart_ment_tab .nav {
+.departments-section .depart-ment-tab .nav {
   justify-content: space-between;
 }
-.departments-section .depart_ment_tab .nav li {
+.departments-section .depart-ment-tab .nav li {
   -webkit-box-flex: 14.4%;
   -ms-flex: 14.4% 0 0px;
   flex: 14.4% 0 0;
   margin-bottom: 30px;
 }
-.departments-section .depart_ment_tab .nav li a.active {
+.departments-section .depart-ment-tab .nav li a.active {
   background-image: -moz-linear-gradient(
     0deg,
     $welcome-to-clinic-color-5 0%,
@@ -80,7 +81,7 @@
   );
   color: $departments-section-color-3;
 }
-.departments-section .depart_ment_tab .nav li a {
+.departments-section .depart-ment-tab .nav li a {
   background: $departments-section-color-3;
   margin-bottom: 30px;
   border: 1px solid $departments-section-color-7;
@@ -102,22 +103,63 @@
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.departments-section .depart_ment_tab .nav li a.active i {
+.departments-section .depart-ment-tab .nav li a.active i {
   color: $departments-section-color-3;
 }
-.departments-section .depart_ment_tab .nav li a i {
+.departments-section .depart-ment-tab .nav li a i {
   font-size: 50px;
   color: #3eadf8;
   line-height: 1;
   margin-bottom: 13px;
 }
-.departments-section .depart_ment_tab .nav li a.active h4 {
+.departments-section .depart-ment-tab .nav li a.active h4 {
   color: #fff;
 }
-.departments-section .depart_ment_tab .nav li a h4 {
+.departments-section .depart-ment-tab .nav li a h4 {
   font-size: 18px;
   font-weight: 500;
   color: #296ea4;
   margin-bottom: 0;
 }
+/*main info section style start*/
+.dept-main-info {
+  background-color: $departments-section-color-3;
+}
+.departments-section .dept-main-info .dept-main-thumb img {
+  width: 100%;
+}
+.departments-section .dept-main-info .dept-info {
+  padding-left: 68px;
+  padding-right: 75px;
+}
+.departments-section .dept-main-info .dept-info h3 {
+  font-size: 25px;
+  line-height: 35px;
+  color: $departments-section-color-9;
+  font-weight: 500;
+}
+.departments-section .dept-main-info .dept-info p {
+  margin-bottom: 52px;
+  margin-top: 20px;
+  color: $departments-section-color-10;
+}
+.departments-section .dept-main-info .dept-info .make-appointment-btn {
+  background: $departments-section-color-3;
+  text-decoration: none;
+  color: $departments-section-color-4;
+  display: inline-block;
+  padding: 18px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid $departments-section-color-5;
+  text-transform: capitalize;
+  cursor: pointer;
+  @include border-radius(3px);
+}
+.departments-section .dept-main-info .dept-info .make-appointment-btn:hover {
+  background: $departments-section-color-6;
+  color: $departments-section-color-3 !important;
+  border: 1px solid $departments-section-color-6;
+}
+/*main info section style end*/
 /*departments section style end*/
