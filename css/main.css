@@ -103,6 +103,111 @@ header .btn-book-apt:hover {
 }
 
 /*main slider end*/
+/*welcome-to-clinic start*/
+.welcome-to-clicnic-section {
+  padding-top: 200px;
+}
+
+.welcome-to-clicnic-section .welcome-to-image-wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.welcome-to-clicnic-section .welcome-to-image-wrapper .img-doctor-1 {
+  position: relative;
+  margin-left: 30px;
+}
+
+.welcome-to-clicnic-section .welcome-to-image-wrapper .img-doctor-1::before {
+  background: #e0fbff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  left: -30px;
+  bottom: -30px;
+}
+
+.welcome-to-clicnic-section .welcome-to-image-wrapper .img-doctor-1 img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info {
+  padding-left: 40px;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info h3 {
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 40px;
+  line-height: 60px;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info h3 span {
+  display: block;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info p {
+  font-size: 16px;
+  color: #6b6a6a;
+  line-height: 28px;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info ul li {
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 44px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info ul li i {
+  margin-right: 15px;
+  color: #84dfff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.welcome-to-clicnic-section .welcome-to-clinc-info .wel-to-cln-about-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 17px 44px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  text-align: center;
+  color: #fff !important;
+  background-image: -webkit-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
+  background-image: -ms-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
+}
+
+/*welcome-to-clinic end*/
 /*media queries start*/
 @media (max-width: 768px) {
   /*header style start*/
