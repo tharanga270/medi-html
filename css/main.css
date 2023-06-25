@@ -42,7 +42,7 @@ header .btn-book-apt:hover {
 }
 
 /*header end*/
-/*main slider start*/
+/*main slider style start*/
 .main-slider-section .medi-single-slider {
   background-image: url("../images/banner.png.webp");
   background-repeat: no-repeat;
@@ -102,8 +102,8 @@ header .btn-book-apt:hover {
   border: 1px solid #fff;
 }
 
-/*main slider end*/
-/*welcome-to-clinic start*/
+/*main slider style end*/
+/*welcome-to-clinic style start*/
 .welcome-to-clicnic-section {
   padding-top: 200px;
 }
@@ -207,7 +207,7 @@ header .btn-book-apt:hover {
   background-image: -ms-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
 }
 
-/*welcome-to-clinic end*/
+/*welcome-to-clinic style end*/
 /*media queries start*/
 @media (max-width: 991px) {
   /*welcome-to-clinic-section style start*/
@@ -266,6 +266,34 @@ header .btn-book-apt:hover {
     width: 95%;
   }
   /*main slider style end*/
+  /*welcome-to-clinic-section style start*/
+  .welcome-to-clicnic-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .welcome-to-clicnic-section .welcome-to-clinc-info {
+    padding-left: 0;
+    margin-top: 80px;
+  }
+  .welcome-to-clicnic-section .welcome-to-clinc-info h3 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .welcome-to-clicnic-section .welcome-to-clinc-info ul li {
+    line-height: 30px;
+  }
+  .welcome-to-clicnic-section .welcome-to-clinc-info ul li i {
+    top: 6px;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  /*welcome-to-clinic-section style end*/
+}
+@media (max-width: 320px) {
+  /*welcome-to-clinic-section style start*/
+  /*welcome-to-clinic-section style end*/
 }
 /*media queries end*/
 
