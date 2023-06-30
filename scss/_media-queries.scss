@@ -10,7 +10,6 @@
   /*welcome-to-clinic-section style start*/
   .welcome-to-clicnic-section {
     padding-top: 100px;
-    padding-bottom: 100px;
   }
   .welcome-to-clicnic-section .welcome-to-clinc-info {
     padding-left: 0;
@@ -19,6 +18,9 @@
   /*welcome-to-clinic-section style end*/
 
   /*departments section style start*/
+  .departments-section .section-title h3 {
+    font-size: 36px;
+  }
   .departments-section .dept-main-info .dept-info {
     padding: 40px;
   }
@@ -28,6 +30,7 @@
     flex: 30% 0 0;
     margin-bottom: 0 !important;
   }
+
   /*departments section style end*/
 }
 
@@ -54,7 +57,10 @@
   /*main slider style end*/
 
   /*departments section style start*/
-
+  .departments-section .section-title h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
   /*departments section style end*/
 }
 
@@ -87,7 +93,6 @@
   /*welcome-to-clinic-section style start*/
   .welcome-to-clicnic-section {
     padding-top: 70px;
-    padding-bottom: 70px;
   }
   .welcome-to-clicnic-section .welcome-to-clinc-info {
     padding-left: 0;
@@ -109,12 +114,57 @@
   }
 
   /*welcome-to-clinic-section style end*/
+
+  /*departments section style start*/
+  .departments-section {
+    margin-top: 70px;
+    padding-bottom: 80px;
+  }
+  .departments-section .section-title h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .departments-section .learn-more-btn {
+    margin-top: 30px;
+    text-align: left !important;
+  }
+  .departments-section .depart-ment-tab .nav li {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100% 0 0px;
+    flex: 100% 0 0;
+    margin-bottom: 0 !important;
+  }
+  .departments-section .depart-ment-tab .nav li a {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .departments-section .depart-ment-tab .nav li a i {
+    font-size: 25px;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+  .departments-section .dept-main-info .dept-info h3 {
+    font-size: 20px;
+  }
+  /*departments section style end*/
 }
 @media (max-width: 375px) {
 }
 @media (max-width: 320px) {
-  /*welcome-to-clinic-section style start*/
-
-  /*welcome-to-clinic-section style end*/
+  /*departments section style start*/
+  .departments-section .dept-main-info .dept-info .make-appointment-btn {
+    font-size: 14px;
+  }
+  /*departments section style end*/
 }
 /*media queries end*/
