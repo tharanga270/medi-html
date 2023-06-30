@@ -410,6 +410,105 @@ header .btn-book-apt:hover {
   margin-bottom: 0;
 }
 
+.doctors-section .doctors-wrapper .single-expert {
+  margin-bottom: 40px;
+}
+
+.doctors-section .doctors-wrapper .single-expert .expert-thumb {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px !important;
+  overflow: hidden;
+}
+
+.doctors-section .doctors-wrapper .single-expert:hover .expert-thumb img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.doctors-section .doctors-wrapper .single-expert .expert-thumb img {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  width: 100%;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name {
+  background: #fff;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 22px 70px 25px 70px;
+  box-shadow: 0px 16px 30px 0px rgba(0, 0, 2, 0.03);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #26bef2;
+  margin-bottom: 6px;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name span {
+  color: #738ea9;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  display: block;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name .social-links {
+  border-top: 1px solid #cbf0ff;
+  padding-top: 26px;
+  margin-top: 24px;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name .social-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name .social-links li {
+  display: inline-block;
+  margin: 0 11px;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name .social-links li a {
+  color: #c2c8d3;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.doctors-section .doctors-wrapper .single-expert .experts-name .social-links li a:hover {
+  color: #0d448f;
+}
+
 /*doctors section style start*/
 /*media queries start*/
 @media (max-width: 991px) {
