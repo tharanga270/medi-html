@@ -3,13 +3,13 @@
 
 /*main slider style start*/
 .main-slider-section .medi-single-slider {
-  @include set-image-to-div(
+  @include set-image-to-element(
     '../images/banner.png.webp',
     no-repeat,
-    960px,
     cover,
     center
   );
+  height: 960px;
 }
 .main-slider-section .bg-overlay {
   position: relative;

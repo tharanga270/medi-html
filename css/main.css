@@ -46,9 +46,9 @@ header .btn-book-apt:hover {
 .main-slider-section .medi-single-slider {
   background-image: url("../images/banner.png.webp");
   background-repeat: no-repeat;
-  height: 960px;
   background-size: cover;
   background-position: center;
+  height: 960px;
 }
 
 .main-slider-section .bg-overlay {
@@ -425,9 +425,21 @@ header .btn-book-apt:hover {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  /*
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  */
 }
 
 .doctors-section .doctors-wrapper .single-expert .expert-thumb img {
+  /*
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  */
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -436,6 +448,12 @@ header .btn-book-apt:hover {
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+  /*
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    */
   width: 100%;
 }
 
@@ -466,6 +484,12 @@ header .btn-book-apt:hover {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  /*
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+    */
   color: #26bef2;
   margin-bottom: 6px;
 }

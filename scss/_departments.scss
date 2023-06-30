@@ -108,17 +108,17 @@
 }
 .departments-section .depart-ment-tab .nav li a i {
   font-size: 50px;
-  color: #3eadf8;
+  color: $departments-section-color-8;
   line-height: 1;
   margin-bottom: 13px;
 }
 .departments-section .depart-ment-tab .nav li a.active h4 {
-  color: #fff;
+  color: $departments-section-color-3;
 }
 .departments-section .depart-ment-tab .nav li a h4 {
   font-size: 18px;
   font-weight: 500;
-  color: #296ea4;
+  color: $departments-section-color-11;
   margin-bottom: 0;
 }
 /*main info section style start*/

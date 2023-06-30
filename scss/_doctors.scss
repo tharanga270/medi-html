@@ -12,7 +12,7 @@
   font-size: 50px;
   font-weight: 600;
   line-height: 48px;
-  color: #191d34;
+  color: $doctors-section-color-1;
   position: relative;
   z-index: 1;
   padding-bottom: 15px;
@@ -20,7 +20,7 @@
 .doctors-section .section-title p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #6b6a6a;
+  color: $doctors-section-color-2;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -34,24 +34,35 @@
   overflow: hidden;
 }
 .doctors-section .doctors-wrapper .single-expert:hover .expert-thumb img {
+  @include transform-scale(1.1);
+  /*
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  */
 }
 .doctors-section .doctors-wrapper .single-expert .expert-thumb img {
+  /*
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+  */
+
+  @include transition-to-element(0.3s);
+  @include transform-scale(1);
+  /*
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    */
+
   width: 100%;
 }
 .doctors-section .doctors-wrapper .single-expert .experts-name {
-  background: #fff;
+  background: $doctors-section-color-3;
   padding-top: 16px;
   padding-bottom: 18px;
   -webkit-border-radius: 10px;
@@ -72,15 +83,19 @@
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 1px;
+
+  @include transition-to-element(0.3s);
+  /*
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: #26bef2;
+    */
+  color: $doctors-section-color-4;
   margin-bottom: 6px;
 }
 .doctors-section .doctors-wrapper .single-expert .experts-name span {
-  color: #738ea9;
+  color: $doctors-section-color-5;
   font-size: 16px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -91,7 +106,7 @@
   font-family: 'Work Sans', sans-serif;
 }
 .doctors-section .doctors-wrapper .single-expert .experts-name .social-links {
-  border-top: 1px solid #cbf0ff;
+  border-top: 1px solid $doctors-section-color-6;
   padding-top: 26px;
   margin-top: 24px;
 }
@@ -121,7 +136,7 @@
   .social-links
   li
   a {
-  color: #c2c8d3;
+  color: $doctors-section-color-7;
   display: inline-block;
   font-size: 16px;
 }
@@ -132,6 +147,6 @@
   .social-links
   li
   a:hover {
-  color: #0d448f;
+  color: $doctors-section-color-8;
 }
 /*doctors section style start*/
