@@ -32,6 +32,13 @@
   }
 
   /*departments section style end*/
+
+  /*doctors section style start*/
+  .doctors-section .section-title h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  /*doctors section style end*/
 }
 
 @media (max-width: 768px) {
@@ -157,6 +164,13 @@
     font-size: 20px;
   }
   /*departments section style end*/
+
+  /*doctors section style start*/
+  .doctors-section .section-title h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  /*doctors section style end*/
 }
 @media (max-width: 375px) {
 }
