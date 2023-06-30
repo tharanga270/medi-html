@@ -511,6 +511,13 @@ header .btn-book-apt:hover {
 
 /*doctors section style start*/
 /*media queries start*/
+@media (max-width: 1200px) {
+  /*doctors section style start*/
+  .doctors-section .doctors-wrapper .single-expert .experts-name {
+    padding: 20px;
+  }
+  /*doctors section style end*/
+}
 @media (max-width: 991px) {
   /*welcome-to-clinic-section style start*/
   .welcome-to-clicnic-section {
