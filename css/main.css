@@ -386,6 +386,7 @@ header .btn-book-apt:hover {
 /*doctors section style start*/
 .doctors-section {
   padding-top: 90px;
+  padding-bottom: 45px;
 }
 
 .doctors-section .section-title {
@@ -534,6 +535,96 @@ header .btn-book-apt:hover {
 }
 
 /*doctors section style start*/
+/*book appointment section style start*/
+.book-appointment-section {
+  background-image: url("../images/app-image.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.book-appointment-section .popup-box {
+  width: 100% !important;
+  background: #fff;
+  display: inline-block;
+  z-index: 9;
+  padding: 60px 40px;
+}
+
+.book-appointment-section .popup-box h3 {
+  font-size: 50px;
+  color: #222222;
+  font-weight: 100;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.book-appointment-section .popup-box h3 span {
+  font-weight: 600;
+  display: block;
+}
+
+.book-appointment-section .popup-box .popup-inner .doctor-drpdown,
+.book-appointment-section .popup-box .popup-inner input[type=text],
+.book-appointment-section .popup-box .popup-inner input[type=email] {
+  color: #919191;
+  height: 60px !important;
+  margin-bottom: 15px;
+}
+
+.book-appointment-section .popup-box .popup-inner input:focus {
+  outline: none !important;
+  border-color: #24c0f1 !important;
+}
+
+.book-appointment-section .popup-box .popup-inner .wrapper-appdate-time {
+  position: relative;
+}
+
+.book-appointment-section .popup-box .popup-inner .wrapper-appdate-time .cmn-date-time-icn {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #919191;
+}
+
+.book-appointment-section .popup-box .popup-inner .make-app-btn {
+  width: 100%;
+  text-transform: capitalize;
+  background: #0181f5;
+  background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#0181f5", endColorstr="#5db2ff",GradientType=1 );
+  color: #fff;
+  display: inline-block;
+  padding: 18px 44px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.book-appointment-section .popup-box .popup-inner .make-app-btn:hover {
+  background: #fff;
+  color: #009dff !important;
+  border: 1px solid #009dff;
+}
+
+/*book appointment section style end*/
 /*media queries start*/
 @media (max-width: 1200px) {
   /*doctors section style start*/
@@ -695,6 +786,19 @@ header .btn-book-apt:hover {
     line-height: 36px;
   }
   /*doctors section style end*/
+  /*book appointment section style start*/
+  .book-appointment-section {
+    padding: 80px 0;
+  }
+  .book-appointment-section .popup-box h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .book-appointment-section .popup-box {
+    padding: 40px 25px;
+  }
+  /*book appointment section style end*/
 }
 @media (max-width: 320px) {
   /*departments section style start*/
