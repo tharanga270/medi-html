@@ -50,6 +50,15 @@
     line-height: 42px;
   }
   /*quality health section style end*/
+
+  /*emergency contact section style start*/
+  .single-emergency.align-items-center.d-flex.justify-content-end {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    margin-top: 37px;
+  }
+  /*emergency contact section style end*/
 }
 
 @media (max-width: 768px) {
@@ -205,8 +214,29 @@
   .quality-health-section .section-title h3 {
     font-size: 30px;
     line-height: 36px;
-}
+  }
   /*quality health section style end*/
+
+  /*emergency contact section style start*/
+  .emergency-contact-section
+    .emergency-contact-inner
+    .single-emergency
+    .info
+    span {
+    font-size: 15px;
+  }
+  .emergency-contact-section
+    .emergency-contact-inner
+    .single-emergency
+    .info
+    h3 {
+    font-size: 30px;
+  }
+  .emergency-contact-section .emergency-contact-inner::before,
+  .emergency-contact-section .emergency-contact-inner::after {
+    width: 100%;
+  }
+  /*emergency contact section style end*/
 }
 @media (max-width: 375px) {
 }
