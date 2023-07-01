@@ -1,0 +1,65 @@
+@import '_variables';
+@import '_mymixin';
+
+/*quality health section style start*/
+.quality-health-section {
+  // padding-top: 195px;
+  // padding-bottom: 170px;
+  padding-top: 100px;
+}
+.quality-health-section .section-title {
+  margin-bottom: 55px;
+}
+.quality-health-section .section-title h3 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #191d34;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 15px;
+}
+.quality-health-section .section-title p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #6b6a6a;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.quality-health-section .single-quality {
+  border: 3px solid rgba(206, 243, 255, 0.2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 70px 45px 63px 45px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.quality-health-section .single-quality .icon {
+  background-image: -moz-linear-gradient(90deg, #24c0f1 0%, #4c9afe 100%);
+  background-image: -webkit-linear-gradient(90deg, #24c0f1 0%, #4c9afe 100%);
+  background-image: -ms-linear-gradient(90deg, #24c0f1 0%, #4c9afe 100%);
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  line-height: 90px;
+}
+.quality-health-section .single-quality h3 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #222222;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.quality-health-section .single-quality p {
+  font-family: 'Roboto', sans-serif;
+  color: #6b6a6a;
+  margin-bottom: 0;
+}
+/*quality health section style end*/
