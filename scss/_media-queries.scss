@@ -43,6 +43,13 @@
     line-height: 42px;
   }
   /*doctors section style end*/
+
+  /*quality health section style start*/
+  .quality-health-section .section-title h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  /*quality health section style end*/
 }
 
 @media (max-width: 768px) {
@@ -189,6 +196,17 @@
     padding: 40px 25px;
   }
   /*book appointment section style end*/
+
+  /*quality health section style start*/
+  .quality-health-section {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .quality-health-section .section-title h3 {
+    font-size: 30px;
+    line-height: 36px;
+}
+  /*quality health section style end*/
 }
 @media (max-width: 375px) {
 }

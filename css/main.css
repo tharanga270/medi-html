@@ -628,6 +628,7 @@ header .btn-book-apt:hover {
 /*quality health section style start*/
 .quality-health-section {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .quality-health-section .section-title {
@@ -731,6 +732,12 @@ header .btn-book-apt:hover {
     line-height: 42px;
   }
   /*doctors section style end*/
+  /*quality health section style start*/
+  .quality-health-section .section-title h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  /*quality health section style end*/
 }
 @media (max-width: 768px) {
   /*header style start*/
@@ -867,6 +874,16 @@ header .btn-book-apt:hover {
     padding: 40px 25px;
   }
   /*book appointment section style end*/
+  /*quality health section style start*/
+  .quality-health-section {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .quality-health-section .section-title h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  /*quality health section style end*/
 }
 @media (max-width: 320px) {
   /*departments section style start*/
