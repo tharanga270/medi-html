@@ -1,0 +1,110 @@
+@import '_variables';
+@import '_mymixin';
+
+.emergency-contact-section {
+  position: relative;
+  z-index: 1;
+}
+.emergency-contact-section::before {
+  left: 0;
+  top: 0;
+}
+.emergency-contact-section .emergency-contact-inner {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+.emergency-contact-section .emergency-contact-inner::before {
+  left: 0;
+  top: 0;
+}
+.emergency-contact-section .emergency-contact-inner .single-emergency {
+  position: relative;
+  z-index: 87;
+}
+.emergency-contact-section
+  .emergency-contact-inner
+  .single-emergency
+  .info
+  span {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 4px;
+  font-family: 'Work Sans', sans-serif;
+}
+.emergency-contact-section .emergency-contact-inner .single-emergency .info h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+.emergency-contact-section
+  .emergency-contact-inner
+  .single-emergency
+  .info-button
+  a {
+  margin-top: 20px;
+}
+.boxed-btn3-white {
+  color: #fff;
+  display: inline-block;
+  padding: 17px 32px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.boxed-btn3-white:hover {
+  background: #fff;
+  color: #009dff !important;
+  border: 1px solid transparent;
+}
+.emergency-contact-section .emergency-contact-inner .single-emergency .icon {
+  font-size: 100px;
+  line-height: 1;
+  color: #fff;
+  margin-right: 40px;
+}
+.emergency-contact-section .emergency-contact-inner::after {
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 113, 253, 0.8) !important;
+}
+.emergency-contact-section .emergency-contact-inner::before,
+.emergency-contact-section .emergency-contact-inner::after {
+  background-color: rgba(0, 171, 231, 0.8);
+  content: '';
+  width: 50%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.emergency-contact-section::after {
+  right: 0;
+  top: 0;
+  background-image: url('../images/emergency_2.jpg.webp');
+}
+.emergency-contact-section::before,
+.emergency-contact-section::after {
+  background-image: url('../images/emergency_1.jpg.webp');
+  content: '';
+  width: 50%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
