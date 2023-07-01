@@ -739,13 +739,13 @@ header .btn-book-apt:hover {
 .emergency-contact-section .emergency-contact-inner .single-emergency .info span {
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: #fff !important;
   margin-bottom: 4px;
   font-family: "Work Sans", sans-serif;
 }
 
 .emergency-contact-section .emergency-contact-inner .single-emergency .info h3 {
-  color: #fff;
+  color: #fff !important;
   font-size: 50px;
   font-weight: 600;
 }
@@ -755,19 +755,19 @@ header .btn-book-apt:hover {
 }
 
 .boxed-btn3-white {
-  color: #fff;
+  color: #fff !important;
   display: inline-block;
   padding: 17px 32px;
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  border: 1px solid #fff !important;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
   text-align: center;
-  color: #fff !important;
   text-transform: capitalize;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -778,7 +778,7 @@ header .btn-book-apt:hover {
 }
 
 .boxed-btn3-white:hover {
-  background: #fff;
+  background: #fff !important;
   color: #009dff !important;
   border: 1px solid transparent;
 }
@@ -786,7 +786,7 @@ header .btn-book-apt:hover {
 .emergency-contact-section .emergency-contact-inner .single-emergency .icon {
   font-size: 100px;
   line-height: 1;
-  color: #fff;
+  color: #fff !important;
   margin-right: 40px;
 }
 
