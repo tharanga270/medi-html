@@ -30,12 +30,12 @@
   span {
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: $emergency-contact-section-color-1;
   margin-bottom: 4px;
   font-family: 'Work Sans', sans-serif;
 }
 .emergency-contact-section .emergency-contact-inner .single-emergency .info h3 {
-  color: #fff;
+  color: $emergency-contact-section-color-1;
   font-size: 50px;
   font-weight: 600;
 }
@@ -47,46 +47,42 @@
   margin-top: 20px;
 }
 .boxed-btn3-white {
-  color: #fff;
+  color: $emergency-contact-section-color-1;
   display: inline-block;
   padding: 17px 32px;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  border: 1px solid $emergency-contact-section-color-1;
+  @include border-radius(5px);
   text-align: center;
-  color: #fff !important;
   text-transform: capitalize;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  @include transition-to-element(0.5s);
   cursor: pointer;
   text-decoration: none;
 }
 .boxed-btn3-white:hover {
-  background: #fff;
-  color: #009dff !important;
+  background: $emergency-contact-section-color-1;
+  color: $emergency-contact-section-color-2;
   border: 1px solid transparent;
 }
 .emergency-contact-section .emergency-contact-inner .single-emergency .icon {
   font-size: 100px;
   line-height: 1;
-  color: #fff;
+  color: $emergency-contact-section-color-1;
   margin-right: 40px;
 }
 .emergency-contact-section .emergency-contact-inner::after {
   right: 0;
   top: 0;
-  background-color: rgba(0, 113, 253, 0.8) !important;
+  //background-color: rgba(0, 113, 253, 0.8) !important;
+  background-color: $emergency-contact-section-color-3 !important;
 }
 .emergency-contact-section .emergency-contact-inner::before,
 .emergency-contact-section .emergency-contact-inner::after {
-  background-color: rgba(0, 171, 231, 0.8);
+  //background-color: rgba(0, 171, 231, 0.8);
+  background-color: $emergency-contact-section-color-4;
   content: '';
   width: 50%;
   top: 0;
@@ -97,7 +93,7 @@
 .emergency-contact-section::after {
   right: 0;
   top: 0;
-  background-image: url('../images/emergency_2.jpg.webp');
+  background-image: url('../images/emergency_2.jpg.webp') !important;
 }
 .emergency-contact-section::before,
 .emergency-contact-section::after {

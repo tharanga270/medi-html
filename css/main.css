@@ -41,6 +41,21 @@ header .btn-book-apt:hover {
   color: white;
 }
 
+/*book appointment modal window style start*/
+.content-wrapper-bookapp h3 {
+  font-size: 50px;
+  color: #222222;
+  font-weight: 100;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.content-wrapper-bookapp h3 span {
+  font-weight: 600;
+  display: block;
+}
+
+/*book appointment modal window style end*/
 /*header end*/
 /*main slider style start*/
 .main-slider-section .medi-single-slider {
@@ -795,7 +810,7 @@ header .btn-book-apt:hover {
 .emergency-contact-section::after {
   right: 0;
   top: 0;
-  background-image: url("../images/emergency_2.jpg.webp");
+  background-image: url("../images/emergency_2.jpg.webp") !important;
 }
 
 .emergency-contact-section::before,
