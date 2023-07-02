@@ -1,3 +1,4 @@
+/*homepage styles start*/
 * {
   font-family: "Work Sans", sans-serif;
 }
@@ -1031,6 +1032,27 @@ header .btn-book-apt:hover {
 }
 
 /*footer section style end*/
+/*homepage styles end*/
+/*aboutpage style start*/
+/*about-banner section style start*/
+.about-banner-section {
+  background-image: url("../images/bradcam.png.webp");
+  background-size: cover;
+  background-position: center center;
+  padding: 275px 0 165px 0px;
+  background-repeat: no-repeat;
+}
+
+.about-banner-section h3 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+/*about-banner section style end*/
+/*aboutpage style end*/
 /*media queries start*/
 @media (max-width: 1200px) {
   /*doctors section style start*/
@@ -1255,6 +1277,14 @@ header .btn-book-apt:hover {
     padding-bottom: 30px;
   }
   /*footer section style end*/
+  /*about-banner section style start*/
+  .about-banner-section {
+    padding: 150px 0 120px 0;
+  }
+  .about-banner-section h3 {
+    font-size: 35px;
+  }
+  /*about-banner section style end*/
 }
 @media (max-width: 320px) {
   /*departments section style start*/

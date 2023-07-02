@@ -1,3 +1,4 @@
+/*homepage styles start*/
 @import '_header';
 @import '_main-slider';
 @import '_welcome-to-clinic';
@@ -7,4 +8,9 @@
 @import '_quality-health';
 @import '_emergency-contact';
 @import '_footer';
+/*homepage styles end*/
+
+/*aboutpage style start*/
+@import '_about-page';
+/*aboutpage style end*/
 @import '_media-queries';
