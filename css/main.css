@@ -55,6 +55,60 @@ header .btn-book-apt:hover {
   display: block;
 }
 
+.content-wrapper-bookapp .doctor-drpdown,
+.content-wrapper-bookapp input[type=text],
+.content-wrapper-bookapp input[type=email] {
+  color: #919191;
+  height: 60px !important;
+  margin-bottom: 15px;
+}
+
+.content-wrapper-bookapp .wrapper-appdate-time {
+  position: relative;
+}
+
+.content-wrapper-bookapp .wrapper-appdate-time .cmn-date-time-icn {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #919191;
+}
+
+.content-wrapper-bookapp .make-app-btn {
+  width: 100%;
+  text-transform: capitalize;
+  background: #0181f5;
+  background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#0181f5", endColorstr="#5db2ff",GradientType=1 );
+  display: inline-block;
+  padding: 18px 44px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content-wrapper-bookapp .make-app-btn:hover {
+  background: #fff;
+  color: #009dff !important;
+  border: 1px solid #009dff;
+}
+
 /*book appointment modal window style end*/
 /*header end*/
 /*main slider style start*/
