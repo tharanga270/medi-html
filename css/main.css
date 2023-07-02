@@ -836,16 +836,16 @@ header .btn-book-apt:hover {
   z-index: 0;
 }
 
-.footer .footer_top {
+.footer .footer-top {
   padding-top: 130px;
   padding-bottom: 110px;
 }
 
-.footer .footer_top .footer_widget {
+.footer .footer-top .footer-widget {
   overflow: hidden;
 }
 
-.footer .footer_top .footer_widget .footer_logo {
+.footer .footer-top .footer-widget .footer-logo {
   font-size: 22px;
   font-weight: 400;
   color: #fff;
@@ -853,7 +853,7 @@ header .btn-book-apt:hover {
   margin-bottom: 35px;
 }
 
-.footer .footer_top .footer_widget .address_text {
+.footer .footer-top .footer-widget .address-text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -861,32 +861,32 @@ header .btn-book-apt:hover {
   line-height: 30px;
 }
 
-.footer .socail_links {
+.footer .socail-links {
   margin-top: 26px;
 }
 
-.footer .socail_links ul {
+.footer .socail-links ul {
   margin: 0;
   padding: 0;
 }
 
-.footer .footer_top .footer_widget ul li {
+.footer .footer-top .footer-widget ul li {
   color: #b8bdc3;
   font-size: 16px;
   line-height: 40px;
 }
 
-.footer .socail_links ul li {
+.footer .socail-links ul li {
   display: inline-block;
 }
 
-.footer .footer_top .footer_widget ul li a {
+.footer .footer-top .footer-widget ul li a {
   color: #b8bdc3;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
 
-.footer .socail_links ul li a {
+.footer .socail-links ul li a {
   font-size: 15px;
   color: #c3b2f0;
   width: 30px;
@@ -899,11 +899,11 @@ header .btn-book-apt:hover {
   color: #e8e8e8;
 }
 
-.footer .footer_top .footer_widget ul li a:hover {
+.footer .footer-top .footer-widget ul li a:hover {
   color: #009dff;
 }
 
-.footer .footer_top .footer_widget .footer_title::before {
+.footer .footer-top .footer-widget .footer-title::before {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -914,7 +914,7 @@ header .btn-book-apt:hover {
   z-index: 1;
 }
 
-.footer .footer_top .footer_widget .footer_title {
+.footer .footer-top .footer-widget .footer-title {
   font-size: 20px;
   font-weight: 500;
   color: #fff;
@@ -926,33 +926,33 @@ header .btn-book-apt:hover {
   padding-bottom: 28px;
 }
 
-.footer .footer_top .footer_widget .links {
+.footer .footer-top .footer-widget .links {
   list-style: none;
   position: relative;
   margin: 0px;
   padding: 0px;
 }
 
-.footer .footer_top .footer_widget .links li {
+.footer .footer-top .footer-widget .links li {
   width: 50%;
   float: left;
 }
 
-.footer .footer_top .footer_widget .links li a {
+.footer .footer-top .footer-widget .links li a {
   text-decoration: none;
 }
 
-.footer ul.meting_time {
+.footer ul.meting-time {
   margin: 0;
   padding: 0;
 }
 
 /*=======================*/
-.footer .copy-right_text {
+.footer .copy-right-text {
   padding-bottom: 32px;
 }
 
-.bordered_1px {
+.bordered-1px {
   border-top: 1px solid #4e5a69;
   padding-bottom: 30px;
   display: block;
@@ -960,14 +960,14 @@ header .btn-book-apt:hover {
   width: 100%;
 }
 
-.footer .copy-right_text .copy_right {
+.footer .copy-right-text .copy-right {
   font-size: 14px;
   color: #b8bdc3;
   margin-bottom: 0;
   font-weight: 400;
 }
 
-.footer .copy-right_text .copy-p {
+.footer .copy-right-text .copy-p {
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
@@ -1029,6 +1029,11 @@ header .btn-book-apt:hover {
     margin-top: 37px;
   }
   /*emergency contact section style end*/
+  /*footer section style start*/
+  .footer .footer-top .footer-widget {
+    margin-bottom: 30px;
+  }
+  /*footer section style end*/
 }
 @media (max-width: 768px) {
   /*header style start*/
@@ -1187,6 +1192,12 @@ header .btn-book-apt:hover {
     width: 100%;
   }
   /*emergency contact section style end*/
+  /*footer section style start*/
+  .footer .footer-top {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  /*footer section style end*/
 }
 @media (max-width: 320px) {
   /*departments section style start*/

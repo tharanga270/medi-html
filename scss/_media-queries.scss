@@ -59,6 +59,12 @@
     margin-top: 37px;
   }
   /*emergency contact section style end*/
+
+  /*footer section style start*/
+  .footer .footer-top .footer-widget {
+    margin-bottom: 30px;
+  }
+  /*footer section style end*/
 }
 
 @media (max-width: 768px) {
@@ -237,6 +243,13 @@
     width: 100%;
   }
   /*emergency contact section style end*/
+
+  /*footer section style start*/
+  .footer .footer-top {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  /*footer section style end*/
 }
 @media (max-width: 375px) {
 }
