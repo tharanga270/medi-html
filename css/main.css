@@ -1118,6 +1118,9 @@ header .btn-book-apt:hover {
 }
 @media (max-width: 425px) {
   /*header style start*/
+  .content-wrapper-bookapp h3 {
+    font-size: 35px;
+  }
   header nav .nav-logo-brand img {
     width: 70px;
   }
