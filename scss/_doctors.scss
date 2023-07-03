@@ -21,6 +21,7 @@
 .doctors-section .section-title p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: lighter;
   color: $doctors-section-color-2;
   line-height: 30px;
   margin-bottom: 0;
@@ -66,19 +67,11 @@
   background: $doctors-section-color-3;
   padding-top: 16px;
   padding-bottom: 18px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  @include border-radius(10px);
   padding: 22px 70px 25px 70px;
-  box-shadow: 0px 16px 30px 0px rgba(0, 0, 2, 0.03);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  box-shadow: 0px 16px 30px 0px $doctors-section-color-9;
   position: relative;
-  -webkit-transform: translateY(-30px);
-  -moz-transform: translateY(-30px);
-  -ms-transform: translateY(-30px);
-  transform: translateY(-30px);
+  @include translateY(-30px);
 }
 .doctors-section .doctors-wrapper .single-expert .experts-name h3 {
   font-size: 30px;

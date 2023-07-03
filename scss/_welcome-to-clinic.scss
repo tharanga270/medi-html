@@ -45,6 +45,8 @@
   font-weight: 700;
 }
 .welcome-to-clicnic-section .welcome-to-clinc-info p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
   font-size: 16px;
   color: $welcome-to-clinic-color-3;
   line-height: 28px;
@@ -57,7 +59,7 @@
   padding: 0;
 }
 .welcome-to-clicnic-section .welcome-to-clinc-info ul li {
-  color: #1a1a1a;
+  color: $welcome-to-clinic-color-2;
   font-size: 16px;
   line-height: 44px;
   position: relative;
@@ -65,7 +67,7 @@
 }
 .welcome-to-clicnic-section .welcome-to-clinc-info ul li i {
   margin-right: 15px;
-  color: #84dfff;
+  color: $welcome-to-clinic-color-5;
   font-size: 20px;
   position: absolute;
   top: 50%;

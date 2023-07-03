@@ -25,3 +25,10 @@
   -o-transition: $trtime;
   transition: $trtime;
 }
+
+@mixin translateY($trans) {
+  -webkit-transform: translateY($trans);
+  -moz-transform: translateY($trans);
+  -ms-transform: translateY($trans);
+  transform: translateY($trans);
+}

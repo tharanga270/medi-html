@@ -20,6 +20,26 @@ header .nav-cmn-item {
 header .nav-cmn-item a {
   color: $header-color-2;
 }
+
+/*======================================*/
+header .nav-blog-drop button {
+  color: $header-color-2;
+  border: none;
+}
+/*
+header .nav-blog-drop button:hover {
+  color: white;
+}
+*/
+header .nav-blog-drop ul li a {
+  color: $header-color-4;
+}
+header .nav-blog-drop .drop-blog {
+  border-radius: 0;
+  top: 75px;
+}
+/*======================================*/
+
 header .btn-book-apt {
   background-color: $header-color-2;
   color: $header-color-3;
@@ -38,7 +58,7 @@ header .btn-book-apt:hover {
 /*book appointment modal window style start*/
 .content-wrapper-bookapp h3 {
   font-size: 50px;
-  color: #222222;
+  color: $book-appointment-section-color-2;
   font-weight: 100;
   line-height: 50px;
   margin-bottom: 50px;
