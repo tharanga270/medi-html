@@ -27,7 +27,12 @@
                 <a class="navbar-brand nav-logo-brand" href="index.html"><img src="images/logo.png.webp" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <div style="background-color: #222;color: #fff;padding: 5px;
+					border-radius: 3px;">
+                        <span>MENU</span>
+                        <i class="fa-brands fa-buffer"></i>
+                    </div>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav d-flex align-items-center">
@@ -40,11 +45,26 @@
                         <li class="nav-item nav-cmn-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item nav-cmn-item">
-                            <a class="nav-link" href="#">Blog</a>
+                        <!-- <li class="nav-item nav-cmn-item">
+							<a class="nav-link" href="#">Blog</a>
+						</li> -->
+                        <li class="nav-item dropdown nav-cmn-item nav-blog-drop">
+                            <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </button>
+                            <ul class="dropdown-menu drop-blog">
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Single-Blog</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item nav-cmn-item">
-                            <a class="nav-link" href="#">Pages</a>
+                        <li class="nav-item dropdown nav-cmn-item nav-blog-drop">
+                            <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </button>
+                            <ul class="dropdown-menu drop-blog">
+                                <li><a class="dropdown-item" href="#">Deportment</a></li>
+                                <li><a class="dropdown-item" href="#">Elements</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item nav-cmn-item">
                             <a class="nav-link" href="#">Contact</a>
